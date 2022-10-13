@@ -8,7 +8,7 @@ cv2.imshow('bgr_image', skittles)
 
 h,s,v=cv2.split(cv2.cvtColor(skittles, cv2.COLOR_BGR2HSV))
 # cv2.imshow('h', h)
-
+oo
 
 height, width = h.shape
 output=np.zeros((height, width), np.uint8)
